@@ -1,21 +1,28 @@
 # MERN Stack Web Development - Coding Ninjas
 
 <div align="center">
-      <img src="https://github.com/user-attachments/assets/2c0afb11-181d-4523-b170-2f7e7d76eec1" width="100"/>
-      <img src="https://github.com/user-attachments/assets/0c7801ae-a8f0-4616-af68-22b6b31d44da" width="100"/>
-      <img src="https://github.com/user-attachments/assets/8fe24ffe-7ead-4cd5-a11c-3171cad1786b" width="100"/>
-      <img src="https://github.com/user-attachments/assets/e3408e5c-5d09-45a1-af18-c3af2b50fa40" width="100"/>
-      <img src="https://github.com/user-attachments/assets/18fd7c16-337c-497f-8447-ece0d1dd3ac4" width="100"/>
-      <img src="https://github.com/user-attachments/assets/a9c0029b-a424-4a3c-b0cc-5b610d3f4b3e" width="100"/>
-      <img src="https://github.com/user-attachments/assets/36eef8a6-0598-4dea-b62e-cc42a027c690" width="100"/>
-      <img src="https://github.com/user-attachments/assets/028267b6-5ed4-4c5a-9e46-bfb64ae8f8fb" width="100"/>
-      <img src="https://github.com/user-attachments/assets/8da46e02-2526-429e-a5d7-a4eed5ca3c02" width="100"/>
-      <img src="https://github.com/user-attachments/assets/6b6e1906-2c17-49fb-985d-896e47dca5d4" width="100"/>
-      <img src="https://github.com/user-attachments/assets/a2d60cbd-9e3d-44b9-b9cb-c56f3838ab29" width="100"/>
-      <img src="https://github.com/user-attachments/assets/80f5a25a-49ac-403e-845c-8b216ed0574e" width="100"/>
-      <img src="https://github.com/user-attachments/assets/f2251227-5832-402b-844b-bcb5cd50b0aa" width="100"/>
-      <img src="https://github.com/user-attachments/assets/90175aa9-4b8b-4a1e-a450-6f1fa55664c8" width="100"/>
-      <img src="https://github.com/user-attachments/assets/b66e177a-ea84-43c6-91d3-598aba90da05" width="100"/>
+      <img src="https://github.com/user-attachments/assets/0c7801ae-a8f0-4616-af68-22b6b31d44da"  width="100" title="HTML"/>
+      <img src="https://github.com/user-attachments/assets/8fe24ffe-7ead-4cd5-a11c-3171cad1786b"  width="100" title="CSS"/>
+      <img src="https://github.com/user-attachments/assets/2c0afb11-181d-4523-b170-2f7e7d76eec1"  width="100" title="Javascript"/>
+      <img src="https://github.com/user-attachments/assets/e3408e5c-5d09-45a1-af18-c3af2b50fa40"  width="100" title="Bootstrap"/>
+      <img src="https://github.com/user-attachments/assets/18fd7c16-337c-497f-8447-ece0d1dd3ac4"  width="100" title="jQuery"/>
+      <img src="https://github.com/user-attachments/assets/a9c0029b-a424-4a3c-b0cc-5b610d3f4b3e"  width="100" title="NodeJS"/>
+      <img src="https://github.com/user-attachments/assets/f3bc23c2-02db-49bb-be7f-190e491ab9f3"  width="100" title="NPM"/>
+      <img src="https://github.com/user-attachments/assets/36eef8a6-0598-4dea-b62e-cc42a027c690"  width="100" title="ExpressJS"/>
+      <img src="https://github.com/user-attachments/assets/6b6e1906-2c17-49fb-985d-896e47dca5d4"  width="100" title="Multer"/>
+      <img src="https://github.com/user-attachments/assets/a2d60cbd-9e3d-44b9-b9cb-c56f3838ab29"  width="100" title="Nodemailer"/>
+      <img src="https://github.com/user-attachments/assets/8da46e02-2526-429e-a5d7-a4eed5ca3c02"  width="100" title="MongoDB"/>
+      <img src="https://github.com/user-attachments/assets/f9a6b853-fdcf-434c-81ec-4138c26d72f0"  width="100" title="Mongoose"/>
+      <img src="https://github.com/user-attachments/assets/d4c36993-e0e7-421c-a345-d2d364194c2f"  width="100" title="Socket.io"/>
+      <img src="https://github.com/user-attachments/assets/90175aa9-4b8b-4a1e-a450-6f1fa55664c8"  width="100" title="React"/>
+      <img src="https://github.com/user-attachments/assets/f2251227-5832-402b-844b-bcb5cd50b0aa"  width="100" title="Babel"/>
+      <img src="https://github.com/user-attachments/assets/80f5a25a-49ac-403e-845c-8b216ed0574e"  width="100" title="Webpack"/>
+      <img src="https://github.com/user-attachments/assets/015f181d-4674-48a5-9afa-be2426474514"  width="100" title="React-Router"/>
+      <img src="https://github.com/user-attachments/assets/b66e177a-ea84-43c6-91d3-598aba90da05"  width="100" title="Redux"/>
+      <img src="https://github.com/user-attachments/assets/f9413606-3dc2-4386-a201-82d4155807ba"  width="100" title="Firebase"/>
+      <img src="https://github.com/user-attachments/assets/028267b6-5ed4-4c5a-9e46-bfb64ae8f8fb"  width="100" title="AWS"/>
+      <img src="https://github.com/user-attachments/assets/0c99ed7a-876d-4eba-a46d-f7d8664b9729"  width="100" title="Gulp"/>
+      <img src="https://github.com/user-attachments/assets/89e800e4-7b6a-4f8f-88dd-7d71ee01bc17"  width="100" title="Grunt"/>
 </div>
 
 <div id="badges">
