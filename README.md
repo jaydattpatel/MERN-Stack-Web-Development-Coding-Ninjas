@@ -13,8 +13,8 @@
       <img src="https://github.com/user-attachments/assets/a2d60cbd-9e3d-44b9-b9cb-c56f3838ab29"  width="100" title="Nodemailer"/>
       <img src="https://github.com/user-attachments/assets/edb5a101-db08-486d-a21a-ba1486c3e7b7"  width="100" title="Libuv"/>
       <img src="https://github.com/user-attachments/assets/c75acfe2-25b9-4711-a1ae-e163102bce73"  width="100" title="EJS"/>
-      <img src="https://github.com/user-attachments/assets/b6536b1e-830e-4140-afab-6f2f705cf945"  width="100" title="JWT"/>
-      <img src="https://github.com/user-attachments/assets/48be8f01-6506-4e67-a53c-aaf0cb9c008b"  width="100" title="Swagger"/>
+      <img src="https://github.com/user-attachments/assets/298193fc-1b77-49bd-820a-fca574f6507a"  width="100" title="JWT"/>
+      <img src="https://github.com/user-attachments/assets/9ab9dd29-296c-4f08-bb01-2e4836e5b073"  width="100" title="Swagger"/>
       <img src="https://github.com/user-attachments/assets/d9889e26-4a11-4a7f-981a-3335ed094441"  width="100" title="Winston"/>
       <img src="https://github.com/user-attachments/assets/8da46e02-2526-429e-a5d7-a4eed5ca3c02"  width="100" title="MongoDB"/>
       <img src="https://github.com/user-attachments/assets/f9a6b853-fdcf-434c-81ec-4138c26d72f0"  width="100" title="Mongoose"/>
