@@ -1,0 +1,20 @@
+To resolve this issue and allow the execution of `grunt` or `gulp`, you can change the execution policy. Here’s how you can do it:
+
+Steps to fix the issue:
+
+1. Open PowerShell as Administrator:
+   - Press the `Windows` key, type `PowerShell`, right-click on Windows PowerShell, and select Run as Administrator.
+
+
+2. Set the execution policy to allow script execution:
+   To allow scripts to run, use the following command:
+
+   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+   
+
+3. Confirm the change:
+   You may be asked to confirm the change. Type `Y` and press `Enter`.
+
+
+4. Try running Gulp again:
+   After changing the execution policy, you should be able to run `grunt` or `gulp` without encountering the error.
