@@ -21,10 +21,14 @@ export const homePage = async (req, res, next) => {
 export const uploadFile = (req, res, next) => {
   CSVFile.uploadedCSV(req, res, async function (err) {
     try {
+      if (!req.file) {
+        req.flash("error", "File not found !");
+        return res.redirect("/");
+      }
       let csvFile = await CSVFile.findOne({ name: req.file.originalname });
       if (csvFile) {
         req.flash("error", "CSV already exists!");
-        return res.redirect("back");
+        return res.redirect("/");
       }
 
       //parsing CSV using papaparse
@@ -46,7 +50,7 @@ export const uploadFile = (req, res, next) => {
         return res.redirect("/");
       } else {
         req.flash("error", "Only CSV file allowed");
-        return res.redirect("back");
+        return res.redirect("/");
       }
     } catch (err) {
       //cathching errors and rendering common error page in the FE along with notification
@@ -77,7 +81,7 @@ export const deleteCSV = async (req, res, next) => {
   try {
     let deleteCSV = await CSVFile.findByIdAndDelete(req.params.id);
     req.flash("success", "CSV removed successfully");
-    return res.redirect("back");
+    return res.redirect("/");
   } catch (err) {
     next(err);
   }
