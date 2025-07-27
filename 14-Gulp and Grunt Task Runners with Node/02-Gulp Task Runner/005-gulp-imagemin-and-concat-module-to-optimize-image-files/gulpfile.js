@@ -20,7 +20,7 @@ const arrPlugin = [
 // minify image files
 function minifyIMAGE() {
   return gulp
-    .src("src/image/*")
+    .src("src/image/**/*.{JPG,jpg,JPEG,jpeg,PNG,png,GIF,gif,svg}")
     .pipe(imagemin(arrPlugin))
     .pipe(gulp.dest("dest/image"));
 }
