@@ -1,13 +1,13 @@
-import ProductModel from '../models/product.model.js';
+import ProductModel from "../models/product.model.js";
 
 class ProductsController {
   getProducts(req, res, next) {
     var products = ProductModel.getAll();
-    res.render('index', { products });
+    res.render("index", { products });
   }
 
   getAddProduct(req, res, next) {
-    res.render('add-product');
+    res.render("add-product");
   }
 
   postAddProduct(req, res, next) {
@@ -15,7 +15,7 @@ class ProductsController {
     console.log(req.body);
     ProductModel.add(req.body); // add to existing array product
     var products = ProductModel.getAll(); // get all products after update
-    res.render('index', { products }); // response to default page
+    res.render("index", { products }); // response to default page
   }
 }
 

@@ -1,24 +1,24 @@
-import ProductModel from '../models/product.model.js';
+import ProductModel from "../models/product.model.js";
 
 class ProductsController {
   getProducts(req, res, next) {
     var products = ProductModel.getAll();
-    res.render('index', { products });
+    res.render("index", { products });
   }
 
   getAddProduct(req, res, next) {
-    res.render('add-product', {errorMessage: null});
+    res.render("add-product", { errorMessage: null });
   }
 
   postAddProduct(req, res, next) {
     // access received form data
     // console.log(req.body);
-  
+
     const { name, desc, price } = req.body;
-    const imageUrl = 'images/' + req.file.filename;
+    const imageUrl = "images/" + req.file.filename;
     ProductModel.add(name, desc, price, imageUrl);
     var products = ProductModel.getAll(); // get all products after update
-    return res.render('index', { products }); // response to default page
+    return res.render("index", { products }); // response to default page
   }
 
   getUpdateProductView(req, res, next) {
@@ -27,43 +27,46 @@ class ProductsController {
     const id = req.params.id;
     const productFound = ProductModel.getById(id);
     if (productFound) {
-      res.render('update-product', {product: productFound, errorMessage: null});
+      res.render("update-product", {
+        product: productFound,
+        errorMessage: null,
+      });
     }
     // 2. else return errors.
     else {
-      res.status(401).send('Product not found.....');
+      res.status(401).send("Product not found.....");
     }
   }
 
-  postUpdateProduct(req, res,next) {
-    const {id, name, desc, price } = req.body;
+  postUpdateProduct(req, res, next) {
+    const { id, name, desc, price } = req.body;
     let imageUrl;
-    if(req.file == undefined){
+    if (req.file == undefined) {
       imageUrl = ProductModel.getById(id).imageUrl;
-    }else{
-      imageUrl = 'images/' + req.file.filename;
+    } else {
+      imageUrl = "images/" + req.file.filename;
     }
     ProductModel.update(id, name, desc, price, imageUrl);
     var products = ProductModel.getAll();
-    res.render('index', { products });
+    res.render("index", { products });
   }
 
   deleteProduct(req, res) {
     const id = req.params.id;
     const productFound = ProductModel.getById(id);
     if (!productFound) {
-      return res.status(401).send('Product not found');
+      return res.status(401).send("Product not found");
     }
     ProductModel.delete(id);
     var products = ProductModel.getAll();
-    res.render('index', { products });
+    res.render("index", { products });
   }
 
   search(req, res) {
     // console.log(req.body);
     const textSearch = req.body.name;
     const data = ProductModel.search(textSearch);
-    res.render('search-product',{products:data});
+    res.render("search-product", { products: data });
   }
 }
 
