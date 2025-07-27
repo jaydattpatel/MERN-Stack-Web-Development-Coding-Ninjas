@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  align-self: flex-start;
+}
+
+b {
+  font-size: 2rem;
+  margin-block: 30px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60px;
+  gap: 10px;
+  background-color: #d1f601;
+  padding-left: 30px;
+}
+
+.navbar a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .active {
+  background-color: #fff;
+  color: #000;
+}
+
+.alert {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: hsla(0, 0%, 39%, 0.2) 0px 2px 8px 0px;
+  background-color: hsl(60, 65%, 85%);
+  font-weight: 1.25rem;
+  font-weight: 600;
+  animation: slide-in-out 2s ease-in-out forwards;
+  transform: translateX(110%);
+}
+
+@keyframes slide-in-out {
+  10% {
+    transform: translateX(0);
+  }
+  90% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}
+
+.page {
+  width: 90vw;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+}
+
+.home a {
+  width: 120px;
+  aspect-ratio: 1;
+  background-color: #faff00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: 0.3s;
+  border-radius: 10%/10%;
+}
+.home a:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.actions {
+  display: flex;
+  gap: 30px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+button img {
+  width: 30px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  box-shadow: none;
+}

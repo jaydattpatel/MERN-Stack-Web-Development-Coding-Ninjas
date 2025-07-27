@@ -24,7 +24,7 @@ export default function Blog() {
   //fun for update realtime data from snapshot firebase
   async function updateData(snapShot) {
     const blogs = snapShot.docs.map((doc) => {
-      console.log(doc);
+      // console.log(doc);
       return {
         id: doc.id,
         ...doc.data(),
