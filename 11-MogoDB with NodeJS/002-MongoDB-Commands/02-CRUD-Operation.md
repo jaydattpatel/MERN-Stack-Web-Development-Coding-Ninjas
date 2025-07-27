@@ -110,7 +110,7 @@ db.users.updateOne({ name: "Alice" }, { $set: { age: 31 } });
 // Updates Alice's age to 31.
 ```
 
-### `updateOne({filter}, {$unset: {NewProperties}})` : To remove or update properties one document by matching.
+### `updateOne({filter}, {$unset: {Properties}})` : To remove or update properties one document by matching.
 
 This removes a specified property from a matching document.
 
@@ -132,7 +132,7 @@ db.users.updateMany({ age: { $lt: 30 } }, { $set: { status: "young" } });
 // Sets the status to "young" for all users under 30.
 ```
 
-### `updateMany({filter}, {$unset: {NewProperties}})` : To remove or update properties in multiple documents by matching properties.
+### `updateMany({filter}, {$unset: {Properties}})` : To remove or update properties in multiple documents by matching properties.
 
 This removes a specified property from multiple matching documents.
 
