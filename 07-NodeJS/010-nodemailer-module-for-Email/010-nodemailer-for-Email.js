@@ -8,8 +8,8 @@ nodemailer module : To Email Purpose
 const nodemailer = require("nodemailer");
 const readline = require("readline");
 
-const senderEmailId = "sender@gmail.com"; //sender's email id
-const senderPassword = "appGeneratedPassword"; // AppgeneratedPassword
+const senderEmailId = "codingninjas2k16@gmail.com"; //sender's email id
+const senderPassword = "slwvvlczduktvhdj"; // AppgeneratedPassword
 
 // 2. Configure email and send it.
 async function sendMail() {

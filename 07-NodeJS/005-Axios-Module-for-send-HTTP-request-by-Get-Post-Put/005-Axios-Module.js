@@ -9,16 +9,16 @@ Now, you can use the functions Axios provides for each HTTP method like these:
 - axios.put()
 */
 
-import axios from 'axios';
+import axios from "axios";
 
 const Solution = async () => {
-
-  axios.get('https://api.codingninjas.com/api/v3/event_tags')
-      .then(response => {
-          console.log(response.data);
-      })
-      .catch(err => {
-          console.error(err);
-      });
+  axios
+    .get("https://api.codingninjas.com/api/v3/event_tags")
+    .then((response) => {
+      console.log(response.data);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
 };
 Solution();
